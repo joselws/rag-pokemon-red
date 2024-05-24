@@ -33,7 +33,7 @@ def main():
     try:
         query = sys.argv[1]
         response = prompt_query(query)
-        print(response)
+        print("\n", response, "\n")
     except IndexError:
         print('Execute like "python3 main.py \"your question here\""')
         return
